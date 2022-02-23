@@ -1,0 +1,38 @@
+{
+  "name": "desafio-pro-franchising",
+  "version": "1.0.0",
+  "description": "Repositório com o desafio para o cargo de back end da empresa pro franchising",
+  "main": "./src/api/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/api/app.js",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoEmanuel8/desafio-pro-franchising.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoEmanuel8/desafio-pro-franchising/issues"
+  },
+  "homepage": "https://github.com/TiagoEmanuel8/desafio-pro-franchising#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.4.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}
